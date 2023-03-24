@@ -131,37 +131,3 @@ body {
 
 }
 
-@media (max-width: 1024px) {
-    .container-main {
-        margin-top: 0;
-    }
-
-}
-
-@media (max-height: 800px) {
-
-    .title {
-        font-size: 85px;
-    }
-
-    .title2 {
-        font-size: 35px;
-    }
-}
-@media (max-width: 375px) {
-    
-     .title {
-        font-size: 50px;
-    }
-
-    .title2 {
-        font-size: 25px;
-    }
-    .rithblock {
-        width: 375px;
-        height: 275px;
-    }
-    
-    
-}
-
