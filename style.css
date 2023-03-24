@@ -148,3 +148,10 @@ body {
         font-size: 35px;
     }
 }
+@media (max-width: 375px) {
+    .rithblock {
+        width: 375px;
+        height: 275px;
+    }
+}
+
