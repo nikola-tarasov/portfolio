@@ -130,3 +130,21 @@ body {
     color: beige;
 
 }
+
+@media (max-width: 1024px) {
+    .container-main {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-height: 800px) {
+
+    .title {
+        font-size: 85px;
+    }
+
+    .title2 {
+        font-size: 35px;
+    }
+}
