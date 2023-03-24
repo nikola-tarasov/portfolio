@@ -149,9 +149,20 @@ body {
     }
 }
 @media (max-width: 375px) {
+    
+    
+     .title {
+        font-size: 50px;
+    }
+
+    .title2 {
+        font-size: 25px;
+    }
     .rithblock {
         width: 375px;
         height: 275px;
     }
+    
+    
 }
 
