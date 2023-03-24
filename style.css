@@ -1,0 +1,169 @@
+/* font-family: 'Sigmar One', cursive; */
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Russo One', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    /*скрывать скролл в браузере при анимации wow*/
+    background: url(./img/body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: rgb(1, 0, 6);
+    background: linear-gradient(151deg, rgba(1, 0, 6, 1) 53%, rgba(0, 0, 0, 1) 60%, rgba(249, 7, 105, 1) 100%); */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+
+.link {
+    text-decoration: none;
+}
+
+.link>li {
+    margin-left: 15px;
+    color: #fdf903;
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+.link>li:hover {
+    border: #ff2a6d solid 3px;
+    color: white;
+}
+
+.leftblock {
+    width: 400px;
+    height: auto;
+
+}
+
+.rithblock {
+
+
+    width: 558px;
+    height: 400px;
+    border-bottom: yellow solid 15px;
+}
+
+.rithblock {
+    background: url(./img/ava.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: 'Sigmar One', cursive;
+    font-size: 100px;
+    font-weight: 200;
+    color: rgb(241, 254, 6);
+    text-align: center;
+}
+
+.title2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    color: #05d9e8;
+    text-align: center;
+
+
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.call>a {
+    width: 200px;
+    border: #ff2a6d solid 3px;
+    ;
+    border-right: #ff2a6d solid 15px;
+
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    color: yellow
+}
+
+.call>a:hover {
+    border-right: #ff2a6d solid 15px;
+    background-color: #ff2a6d;
+    color: beige;
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .container-main {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-height: 800px) {
+
+    .title {
+        font-size: 85px;
+    }
+
+    .title2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .title2 {
+        font-size: 25px;
+    }
+
+    .rithblock {
+        width: 375px;
+        height: 275px;
+    }
+}
