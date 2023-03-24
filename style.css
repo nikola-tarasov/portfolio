@@ -76,12 +76,17 @@ body {
 
     width: 558px;
     height: 400px;
-
-
     border-bottom: yellow solid 15px;
 
 
 }
+
+.rithblock {
+    background: url(./img/ava.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .title {
     font-family: 'Sigmar One', cursive;
