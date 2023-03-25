@@ -63,6 +63,7 @@ body {
 .link>li:hover {
     border: #ff2a6d solid 3px;
     color: white;
+    transition: 1s;
 }
 
 .leftblock {
@@ -130,6 +131,7 @@ body {
     border-right: #ff2a6d solid 15px;
     background-color: #ff2a6d;
     color: beige;
+    transition: 2s;
 
 }
 
